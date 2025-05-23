@@ -1,0 +1,75 @@
+  .cover {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .bnner_slider .owl-item.active ul {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    animation-delay: 0.3s;
+  }
+  .bnner_slider .owl-item.active h1, .bnner_slider .owl-item.active h3 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  .bnner_slider .owl-item.active .btn_group, .bnner_slider .owl-item.active h2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.3s;
+  }
+  .bnner_slider .owl-item.active .bnrRight_img {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInRight;
+    animation-delay: 0.3s;
+  }
+  .bnner_slider .owl-nav .owl-prev, .bnner_slider .owl-nav .owl-next {
+    position: absolute;
+    left: 15px;
+    top: 43%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    background: rgba(0, 51, 153, 0.5) !important;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 0;
+  }
+  .bnner_slider .owl-nav .owl-prev span, .bnner_slider .owl-nav .owl-next span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  .bnner_slider .owl-nav .owl-prev:focus, .bnner_slider .owl-nav .owl-next:focus {
+    outline: 0;
+  }
+  .bnner_slider .owl-nav .owl-prev:hover, .bnner_slider .owl-nav .owl-next:hover {
+    background: #039 !important;
+  }
+  .bnner_slider .owl-nav .owl-next {
+    left: auto;
+    right: 15px;
+  }
+  .bnner_slider:hover .owl-prev {
+    left: 0px;
+    opacity: 1;
+  }
+  .bnner_slider:hover .owl-next {
+    right: 0px;
+    opacity: 1;
+  }

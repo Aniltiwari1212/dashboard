@@ -1,0 +1,405 @@
+@media (max-width:1199.98px){
+   .sidebar{
+        max-width: 180px;
+   }
+   .nav-links li {
+    padding: 10px 20px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    margin-left: -4px;
+    margin-right: 0px;
+    transition: all 0.3s ease;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 180px;
+    max-width: 58% !important;
+    background-color: #fff;
+}
+.search-container h2 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        left: -5px;
+        bottom: 3px;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+    }
+.officetime-box {
+    border: 3px solid #80808061;
+    border-radius: 40px;
+    background: #fff;
+    padding:25px 20px;
+    width: 38%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.off-box img {
+    max-width: 40px;
+}
+.off-box h3{
+    font-weight: 600;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+}
+.off-box small{
+    font-size: 14px;
+}
+.aug {
+        font-weight: 600;
+        margin-top: 50px;
+        line-height: 23px;
+        font-size: 16px;
+    }
+.search-container p {
+    color: grey;
+    font-size: 12px;
+}
+.blue-box img {
+    max-width: 30px;
+}
+.blue-box h4 {
+    color: #fff;
+    font-weight: 600;
+    margin-top: 90px;
+    font-size: 13px !important;
+}
+.blue-box h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+}
+.anno-first img {
+    max-width: 25px;
+}
+.anno-first .flex-shrink-0 {
+    background: #ffdec47a;
+    width: 40px;
+    height: 40px;
+}
+.announcement .d-flex.align-items-center {
+    margin-right: 40px;
+}
+.announcement p {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 600;
+    color: gray;
+    padding-bottom:8px;
+    margin-top: 10px !important;
+}
+.announcement .phead {
+    border-top: 1px solid gray;
+    padding-top: 8px;
+    font-size: 11px;
+}
+.announcement{
+    padding: 20px;
+}
+.anno-first .flex-grow-1.ms-3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.blue-box{
+    padding: 20px;
+}
+.content{
+    margin-left: 170px;
+}
+.calender-block {
+    margin-left: 0px;
+}
+.meghna-profile i {
+    font-size: 12px;
+    font-weight: 700;
+}
+.megh-prop img{
+    width: 35px;
+    height: 35px;
+}
+.megh-prop h4{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.megh-prop .d-flex {
+    align-items: center;
+}
+.meghna-profile{
+    margin: 20px 10px;
+}
+.user-profile{
+    padding-left: 0;
+}
+.megh-prop p {
+        font-size: 7px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        line-height: 12px;
+}
+.megh-prop .flex-grow-1.ms-3 {
+    margin-left: 5px !important;
+}
+.attendence {
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.month-name {
+    font-weight: 600;
+    font-size: 15px;
+}
+.arrow{
+    background-color: transparent;
+    width: 0 !important;
+    height: 0 !important;
+}
+.red-btn {
+    display: inline-block;
+    text-transform: capitalize;
+    background: red;
+    padding: 7px 13px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+}
+     .date {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        font-size: 11px;
+        align-items: center;
+        justify-content: center;
+    }
+.holidayss h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.holidayss h5 {
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.bg_skyblue{
+    margin-left: 0;
+    padding: 6px;
+    font-size: 10px;
+}
+.bg_lightRed {
+    background: deeppink;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 10px;
+}
+    .sidebar {
+        max-width: 200px;
+    }
+   .content {
+        margin-left: 200px;
+    }
+    .nav-links a {
+        font-size: 14px;
+    }
+    .mobile-side {
+    display: none;
+}
+
+}
+@media (max-width:991.98px){
+      .mobile-side {
+        display: none;
+    }
+        .sidebar {
+        width: 160px;
+        padding: 15px 0;
+    }
+        .nav-links a i {
+        margin-right: 8px;
+    }
+        .nav-links a {
+        font-size: 12px;
+    }
+    .content {
+        margin-left: 160px;
+    }
+    label.switch {
+        display: none;
+    }
+    .office-time {
+        display: block;
+    }
+    .officetime-box{
+        width: 60%;
+    }
+    .content{
+        max-width: 52% !important;
+    }
+    .blue-box {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .search-container h2{
+        font-size: 25px;
+    }
+    .announcement .d-flex.align-items-center {
+        margin-right: 20px;
+    }
+    .anno-first .flex-grow-1.ms-3 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+        .megh-prop h4 {
+        font-size: 9px;
+        margin: 0;
+        padding: 0;
+    }
+        .megh-prop p {
+        font-size: 5px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        line-height: 8px;
+    }
+    .meghna-profile {
+        margin: 10px;
+    }
+    .calender-block {
+        margin-left: 22px;
+        width: 28%;
+    }
+    .holidayss h5{
+        font-size: 13px;
+    }
+}
+@media (min-width:768px){
+    .dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+}
+@media (max-width:767.98px){
+    .content {
+        margin-left: 0;
+        max-width: 100% !important;
+        width: 100%;
+    }
+    .sidebar {
+        width: 170px;
+        left: -170px;
+    }    
+    .nav-links a i {
+        margin-right: 8px;
+    }
+    .calender-block {
+        width: 100%;
+    }
+    .search-container{
+        text-align: center;
+    }
+    .switch{
+        display: none;
+    }
+    .search-container h2 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+        .search-container p {
+        color: grey;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .office-time {
+        display: block;
+    }
+    .officetime-box{
+        width: 100%;
+    }
+        .off-box img {
+        max-width: 46px;
+    }
+    .off-box h3 {
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .aug {
+        font-weight: 600;
+        margin-top: 50px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .officetime-box .red-btn {
+        margin-top: 10px;
+        padding: 7px 14px;
+        font-size: 12px !important;
+    }
+    .blue-box {
+        padding: 20px;
+        width: 100%;
+        margin-top: 30px;
+    }
+        .blue-box img {
+        max-width: 50px;
+    }
+    .blue-box h4{
+        margin-bottom: 0;
+    }
+    .blue-box h2{
+        font-size: 50px;
+    }
+    .anno-first {
+        margin-bottom: 20px;
+    }   
+    .anno-sec .flex-shrink-0 {
+        background: #0000ff82;
+        width: 40px;
+        height: 40px;
+    }
+    .mystyle {
+        left: 0;
+    }
+      .nav-links li{
+        display: block;
+      }
+      .mobile-logo img {
+        max-width: 170px;
+        padding: 20px;
+    }
+    .mobile-side {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-logo img {
+        max-width: 290px;
+        padding: 20px;
+    }
+}
+
+
